@@ -1,0 +1,19 @@
+Desk Coin — 4.0 inch Hosyond / LCD wiki E32R40T
+
+Arduino IDE
+  Board: ESP32 Dev Module
+  Flash size: 4MB
+  Partition scheme: Huge APP (3MB No OTA)
+  Upload speed: 921600
+  Port: the COM port for this screen
+
+Open this sketch:
+  firmware\4 inch version\desk_coin\desk_coin.ino
+
+Do not flash this file onto the 7 inch.
+Do not replace the train tracker or the plane tracker with this sketch.
+
+Screen: rotation 3, SD slot on top.
+Touch uses the same corner calibration already stored on this board.
+Wi-Fi, the coin, the chart, the time zone, and brightness are stored on their own.
+Factory on the Wi-Fi page clears only this desk, not the train or plane settings.
